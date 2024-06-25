@@ -1,0 +1,12 @@
+{
+  "name": "piyush-garg-yt-node-playlist",
+  "version": "1.0.0",
+  "description": "Learning Node from Youtube",
+  "main": "hello.js",
+  "scripts": {
+    "test": "hehehehe",
+    "start":"node hello.js"
+  },
+  "author": "Ravi And Piyush Garg (YTuber)",
+  "license": "ISC"
+}
