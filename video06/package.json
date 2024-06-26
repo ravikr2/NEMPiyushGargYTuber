@@ -1,0 +1,12 @@
+{
+  "name": "video06",
+  "version": "1.0.0",
+  "description": "day 06 learning about how nodejs works for async and sync concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index"
+  },
+  "author": "Ravi Sharma & Piyush Garg",
+  "license": "ISC"
+}
