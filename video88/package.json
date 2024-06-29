@@ -1,0 +1,15 @@
+{
+  "name": "video08",
+  "version": "1.0.0",
+  "description": "Handling url and using url package for getting urls parameter in details",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Ravi & Piyush Garg (YT)",
+  "license": "ISC",
+  "dependencies": {
+    "url": "^0.11.3"
+  }
+}
