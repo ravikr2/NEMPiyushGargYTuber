@@ -6,3 +6,5 @@
 17:14:48 Par / se GET Request aaya
 17:14:52 Par /about se GET Request aaya
 17:14:57 Par /signup se GET Request aaya
+22:50:40 Par /signup se GET Request aaya
+22:50:46 Par / se GET Request aaya
