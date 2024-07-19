@@ -1,0 +1,16 @@
+{
+  "name": "video10",
+  "version": "1.0.0",
+  "description": "Getting started with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "author": "Ravi AND Piyush Garg",
+  "license": "ISC",
+  "dependencies": {
+    "url": "^0.11.3",
+    "express": "^4.19.2"
+  }
+}
