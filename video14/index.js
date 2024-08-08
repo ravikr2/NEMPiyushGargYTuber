@@ -1,7 +1,8 @@
 const express=require("express")
 const app=express()
-const users=require("./MOCK_DATA .json")
+const users=require("./MOCK_DATA.json")
 const PORT=3500;
+const fs=require("fs")
 
 
 app.use(express.urlencoded({extended:false}))
@@ -24,8 +25,10 @@ app.get("/api/users",(req,res)=>{
 app.post("/api/users",(req,res)=>{
     const body=req.body
     console.log("body",body)
-    const id=users.length
-    return res.json({status:"pending"})
+    users.push({...body,id:users.length+1})
+    fs.writeFile("./MOCK_DATA.json",JSON.stringify(users),(err,data)=>{
+        return res.json({status:"success",id:users.length})
+    })
 })
 
 
