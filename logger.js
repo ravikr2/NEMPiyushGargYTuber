@@ -1,0 +1,1 @@
+Route:/teachersMethod:GETRoute:/studentsMethod:GETRoute:/studentsMethod:GET
